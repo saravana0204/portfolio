@@ -1,37 +1,68 @@
- .main{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid green;
-    background-color: black;
-    
-    
-}
+
 body{
     margin: 0;
-    padding: 40px;
-    box-sizing: border-box;
-    background-color: rgb(156, 151, 151);
+    overflow: scroll;
+    padding: 20px;
+background-color:rgb(3, 1, 29);
+color: beige;
+}
+nav{
+    background-color: black;
     color: white;
-}
-h1{
-    color: pink;
-}
-h2{
-    color: blueviolet;
-}
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 
-h3{
-    color: aqua;
 }
-h4{
-    color: yellow;
+.xyz{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-h5{
-    color: chocolate;
+.nobi{
+    margin-right: 200px;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+}
+li{
+    margin-left: 20px;
+    list-style-type:disc
+
+}
+h1,h2{
+    text-decoration: underline;
+    text-align: center;
+    
 }
 p{
-    color:rgb(255, 153, 0) ;
-
+    font-size: 25px;
+}
+.third{
+    display: block;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 10px;
+    border-radius: 30%;
+}
+.nobita{
+    text-align: center;
 }
